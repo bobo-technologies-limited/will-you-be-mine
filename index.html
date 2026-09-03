@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- The text that appears in the browser tab -->
-    <title>Will You Be Mine? 💗</title>
+    <title>Will You Be Mine? 💗 | Bobo Technologies Limited</title>
+    <meta name="author" content="Bobo Technologies Limited">
+    <meta name="description" content="A little romantic question made with love.">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -146,21 +148,17 @@
 
         </section>
 
-
-        <!-- =====================================================
-            BRANDING & COPYRIGHT
-            Replace "YOUR NAME" with your name or brand.
-            ===================================================== -->
-        <footer class="site-footer">
-            <span class="brand-mark">♥</span>
-            <span>Made with love by <strong>Bobo Technologies</strong></span>
-            <span class="footer-divider">•</span>
-            <span>© 2026 Bobo Technologies. All rights reserved.</span>
-        </footer>
-
     </main>
 
+    <footer class="site-footer">
+        <p class="footer-brand">Made with <span aria-hidden="true">♥</span> by <strong>Bobo Technologies Limited</strong></p>
+        <p class="footer-copyright">&copy; <span id="copyrightYear"></span> Bobo Technologies Limited. All rights reserved.</p>
+    </footer>
+
         <script src="script.js"></script>
+        <script>
+            document.getElementById("copyrightYear").textContent = new Date().getFullYear();
+        </script>
     
 </body>
 </html>
